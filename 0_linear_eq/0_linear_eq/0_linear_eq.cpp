@@ -60,9 +60,9 @@ int main()
         printf("Hello, World");
     }
 
-    getchar();
+    int D = getchar();
 
-    5 > 4 ? printf("yes\n") : printf("no\n");
+    5 > 4 ? printf("yes %i\n", D) : printf("no %i\n",D);
 
     getchar();
 
