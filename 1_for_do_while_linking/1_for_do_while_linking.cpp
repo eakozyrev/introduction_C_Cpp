@@ -1,12 +1,15 @@
 ﻿#include <iostream>
 #include "math.h"
+#include "time.h"
 using namespace std;
 
 
 int main()
 {
-    
-    for (int i = 0; i < 5; i++) { cout << i << " ";} cout << endl;
+
+    double t1 = clock();
+    for (short int i = 0; i < 5; ++i) { cout << i << " ";} cout << endl;
+    cout << (clock() - t1)/CLOCKS_PER_SEC << 's';
     getchar();
     for (int i = 0; i < 5; i++) cout << i << " "; cout << endl;
     getchar();
