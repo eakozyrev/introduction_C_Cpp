@@ -1,0 +1,5 @@
+﻿  3_variables.cpp
+C:\Users\user\introduction_C_Cpp\3_variables\3_variables.cpp(25,16): warning C4305: аргумент: усечение из "double" в "float"
+C:\Users\user\introduction_C_Cpp\3_variables\3_variables.cpp(25,12): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\user\introduction_C_Cpp\3_variables\3_variables.cpp(32,12): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+  3_variables.vcxproj -> C:\Users\user\introduction_C_Cpp\3_variables\x64\Debug\3_variables.exe
