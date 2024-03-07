@@ -1,20 +1,67 @@
-﻿// 5_static_array.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
-//
+﻿#include <stdio.h>
+#define MAX 100
 
-#include <iostream>
+//Передает не сам массив (по значению), а только его указатель на первый элемент
+void sum_prod(double res[], int array[], const int n) { 
+           //(double *res, int *array, int n) {    // 
+    printf("adress = 0x%.8X\n", res);
+    printf("sizeof(res) = %d ; sizeof(res[0]) = %d \n", sizeof(res), sizeof(res[0]));
+    int sum = 0;
+    int prod = array[0];
+    for (int i = 0; i < n; i++) {
+        sum += array[i];
+        if(i > 0)prod *= array[i];
+    }
+    res[0] = sum;
+    res[1] = prod;
+} // используя оператор индексации
+
+
+void sum_prod1(double *res, int *array, const int n) {
+    printf("adress = 0x%.8X\n", res);
+    printf("sizeof(res) = %d ; sizeof(res[0]) = %d \n", sizeof(res), sizeof(*res));
+    int sum = 0;
+    int prod = *array;
+    int* ref = array;
+    for (int i = 0; i < n; i++) {
+        sum += *ref;
+        if (i > 0)prod *= *ref;
+        ref++;
+    }
+    *res++ = sum;
+    *res = prod;
+} // используя разыменования указателя
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    //auto func = [](int a, int b) {return a + b; };
+    //printf("Hello World! %d \n", func(5,6));
+
+    int arr1[] = { 1,2,3,9 };
+    arr1[0] = 99;
+    const int arr2[] = { 2,6,4 };
+    //arr2[0] = 99;  // ERROR
+    printf("sizeof(arr2) = %d ; sizeof(arr2[0]) = %d \n", sizeof(arr2), sizeof(arr2[0]));
+    for (int i = 0; i < sizeof(arr2)/sizeof(arr2[0]); ++i)printf("%d 0x%.8X %d \n", arr2[i], &arr2[i], *(& arr2[i]));
+    
+    //const int size = 100;
+    int array[MAX]; // size];
+    int n;
+    scanf_s("%d", &n);
+
+    for (int i = 0; i < n; ++i) {
+
+        scanf_s("%d", &array[i]);
+
+    }
+    for (int i = 0; i < MAX; ++i)printf("%d ", array[i]);
+
+    printf("\n");
+    double sprod[2];
+    printf("adress = 0x%.8X\n", sprod);
+    printf("sizeof(sprod) = %d ; sizeof(sprod[0]) = %d \n", sizeof(sprod), sizeof(sprod[0]));
+    sum_prod(sprod, array, n);
+    printf("sum = %f; prod = %f\n", sprod[0], sprod[1]);
+    sum_prod1(sprod, array, n);
+    printf("sum = %f; prod = %f\n", sprod[0], sprod[1]);
 }
-
-// Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
-// Отладка программы: F5 или меню "Отладка" > "Запустить отладку"
-
-// Советы по началу работы 
-//   1. В окне обозревателя решений можно добавлять файлы и управлять ими.
-//   2. В окне Team Explorer можно подключиться к системе управления версиями.
-//   3. В окне "Выходные данные" можно просматривать выходные данные сборки и другие сообщения.
-//   4. В окне "Список ошибок" можно просматривать ошибки.
-//   5. Последовательно выберите пункты меню "Проект" > "Добавить новый элемент", чтобы создать файлы кода, или "Проект" > "Добавить существующий элемент", чтобы добавить в проект существующие файлы кода.
-//   6. Чтобы снова открыть этот проект позже, выберите пункты меню "Файл" > "Открыть" > "Проект" и выберите SLN-файл.
