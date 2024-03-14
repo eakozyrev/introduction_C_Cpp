@@ -1,0 +1,10 @@
+﻿  6_dynamic_array_sorting.cpp
+C:\Users\user\introduction_C_Cpp\6_dynamic_array_sorting\6_dynamic_array_sorting.cpp(16,12): warning C4477: "printf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "size_t"
+  C:\Users\user\introduction_C_Cpp\6_dynamic_array_sorting\6_dynamic_array_sorting.cpp(16,12):
+  рекомендуется использовать "%zd" в строке форматирования
+  
+C:\Users\user\introduction_C_Cpp\6_dynamic_array_sorting\6_dynamic_array_sorting.cpp(16,12): warning C4477: "printf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "2" имеет тип "size_t"
+  C:\Users\user\introduction_C_Cpp\6_dynamic_array_sorting\6_dynamic_array_sorting.cpp(16,12):
+  рекомендуется использовать "%zd" в строке форматирования
+  
+  6_dynamic_array_sorting.vcxproj -> C:\Users\user\introduction_C_Cpp\6_dynamic_array_sorting\x64\Debug\6_dynamic_array_sorting.exe
