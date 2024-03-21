@@ -40,7 +40,7 @@ struct Rectangle
 
 int main() {
 
-    struct Rectangle r;
+    Rectangle r;
     r.x0 = 5;
     r.y0 = 5;
     r.x1 = 10;
