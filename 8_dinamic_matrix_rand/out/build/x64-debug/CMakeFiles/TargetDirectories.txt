@@ -1,0 +1,3 @@
+C:/Users/user/introduction_C_Cpp/8_dinamic_matrix_rand/out/build/x64-debug/CMakeFiles/8_dinamic_matrix_rand.dir
+C:/Users/user/introduction_C_Cpp/8_dinamic_matrix_rand/out/build/x64-debug/CMakeFiles/edit_cache.dir
+C:/Users/user/introduction_C_Cpp/8_dinamic_matrix_rand/out/build/x64-debug/CMakeFiles/rebuild_cache.dir
