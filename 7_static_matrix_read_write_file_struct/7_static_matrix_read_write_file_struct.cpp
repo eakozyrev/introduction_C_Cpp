@@ -45,6 +45,7 @@ int cmpfunc(const void* a, const void* b) {
 int main() {
 
     struct Rect r;
+    Rectangle r;
     r.x0 = 5;
     r.y0 = 5;
     r.x1 = 10;
