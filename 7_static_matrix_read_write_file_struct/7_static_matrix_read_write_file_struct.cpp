@@ -1,9 +1,10 @@
-﻿// Строка, позволяющая использовать scanf вместо scanf_s
-// (а также fopen вместо fopen_s)
+﻿// использовать scanf вместо scanf_s
+//  fopen вместо fopen_s)
 #define _CRT_SECURE_NO_WARNINGS
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <algorithm>
 
 typedef float my_type;
 typedef my_type Matrix_3_3[3][3];
@@ -29,7 +30,7 @@ void printMatrixStatic(Matrix_3_3 matrix)
     }
 }
 
-struct Rectangle
+struct Rect
 {
     int x0;
     int y0;
@@ -37,9 +38,13 @@ struct Rectangle
     int y1=1;
 };
 
+int cmpfunc(const void* a, const void* b) {
+    return (*(int*)a - *(int*)b);
+}
 
 int main() {
 
+    struct Rect r;
     Rectangle r;
     r.x0 = 5;
     r.y0 = 5;
@@ -102,6 +107,11 @@ int main() {
 
     printMatrixStatic(matrix.inv);
 
+    int arr[] = { 3,1,6,3 };
+
+    //qsort(arr, sizeof(arr)/sizeof(arr[0]), sizeof(arr[0]), cmpfunc);
+    std::sort(arr, arr + sizeof(arr) / sizeof(arr[0]));
+    for (auto i : arr)printf("%d ", i);
 
     return 0;
 }
