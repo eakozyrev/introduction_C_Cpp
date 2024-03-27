@@ -1,0 +1,15 @@
+# ninja log v5
+4	765	7332432694884338	CMakeFiles/8_dinamic_matrix_rand.dir/8_dinamic_matrix_rand.cpp.obj	7f2a8f0dc0596305
+766	1024	7332432697283759	8_dinamic_matrix_rand.exe	bc821af04d70d695
+14	786	7332433964306547	CMakeFiles/8_dinamic_matrix_rand.dir/8_dinamic_matrix_rand.cpp.obj	7f2a8f0dc0596305
+787	936	7332433965418485	8_dinamic_matrix_rand.exe	bc821af04d70d695
+13	1035	7332489458077729	CMakeFiles/8_dinamic_matrix_rand.dir/8_dinamic_matrix_rand.cpp.obj	7f2a8f0dc0596305
+1035	1174	7332489459169587	8_dinamic_matrix_rand.exe	bc821af04d70d695
+14	745	7332495368504599	CMakeFiles/8_dinamic_matrix_rand.dir/8_dinamic_matrix_rand.cpp.obj	7f2a8f0dc0596305
+746	874	7332495369509702	8_dinamic_matrix_rand.exe	bc821af04d70d695
+19	1143	7332503278320512	CMakeFiles/8_dinamic_matrix_rand.dir/8_dinamic_matrix_rand.cpp.obj	7f2a8f0dc0596305
+1144	1312	7332503279631381	8_dinamic_matrix_rand.exe	bc821af04d70d695
+14	746	7332503543615679	CMakeFiles/8_dinamic_matrix_rand.dir/8_dinamic_matrix_rand.cpp.obj	7f2a8f0dc0596305
+746	880	7332503544673058	8_dinamic_matrix_rand.exe	bc821af04d70d695
+15	1206	7332517194300196	CMakeFiles/8_dinamic_matrix_rand.dir/8_dinamic_matrix_rand.cpp.obj	7f2a8f0dc0596305
+1207	1347	7332517195414740	8_dinamic_matrix_rand.exe	bc821af04d70d695

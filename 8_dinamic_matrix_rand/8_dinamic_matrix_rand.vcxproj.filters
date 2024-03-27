@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\user\introduction_C_Cpp\8_dinamic_matrix_rand\8_dinamic_matrix_rand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\user\introduction_C_Cpp\8_dinamic_matrix_rand\8_dinamic_matrix_rand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\user\introduction_C_Cpp\8_dinamic_matrix_rand\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{0F54D4A0-2C01-3F6B-9743-ACAAA76993B6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6F9C47CB-1343-3459-AE2B-543C067CFE5C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
