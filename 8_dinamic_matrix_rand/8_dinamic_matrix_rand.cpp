@@ -7,7 +7,7 @@ using namespace std;
 
 int main() {
 	//Seeds the pseudo-random number generator
-	srand(time(NULL));
+	srand(1000); // time(NULL));
 	int rows, cols;
 	scanf("%d %d", &rows, &cols);
 	Matrix* m = createMatrix(rows, cols);

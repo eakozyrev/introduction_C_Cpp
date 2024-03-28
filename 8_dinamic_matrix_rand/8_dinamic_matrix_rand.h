@@ -8,6 +8,11 @@ struct Matrix
     int cols;
     // Содержимое матрицы (две звёздочки -- двумерный массив)
     int** data;
+
+    float det;
+    float sum;
+    float prod;
+    int** inv;
 };
 
 void printMatrix(Matrix* m)
@@ -50,10 +55,10 @@ Matrix* createMatrix(int rows, int cols)
         m->data[i] = (int*)malloc(sizeof(int) * m->cols);
         for (int j = 0; j < m->cols; j++)
         {
-            m->data[i][j] = i + j;
-            m->data[i][j] = rand(); // %100; 
-            m->data[i][j] = RAND_MAX;
-            m->data[i][j] = time(NULL);
+           // m->data[i][j] = i + j;
+            m->data[i][j] = rand()%100; 
+           // m->data[i][j] = RAND_MAX;
+          //  m->data[i][j] = time(NULL);
         }
     }
 
