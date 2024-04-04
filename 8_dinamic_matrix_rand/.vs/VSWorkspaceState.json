@@ -10,5 +10,12 @@
       "out\\build\\x86-release",
       "out\\install\\x86-release"
     ]
-  }
+  },
+  "ExpandedNodes": [
+    "",
+    "\\out",
+    "\\out\\build"
+  ],
+  "SelectedNode": "\\8_dinamic_matrix_rand.cpp",
+  "PreviewInSolutionExplorer": false
 }

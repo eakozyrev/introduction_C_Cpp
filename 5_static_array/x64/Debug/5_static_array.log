@@ -1,0 +1,42 @@
+﻿  5_static_array.cpp
+C:\Users\user\introduction_C_Cpp\5_static_array\5_static_array.cpp(7,12): warning C4477: "printf": в строке форматирования "%.8X" требуется аргумент типа "unsigned int", но вариативный аргумент "1" имеет тип "double []"
+C:\Users\user\introduction_C_Cpp\5_static_array\5_static_array.cpp(7,12): warning C4313: printf: конфликт "%X" в строке формата с аргументом 1 типа "double []"
+C:\Users\user\introduction_C_Cpp\5_static_array\5_static_array.cpp(8,12): warning C4477: "printf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "size_t"
+  C:\Users\user\introduction_C_Cpp\5_static_array\5_static_array.cpp(8,12):
+  рекомендуется использовать "%zd" в строке форматирования
+  
+C:\Users\user\introduction_C_Cpp\5_static_array\5_static_array.cpp(8,12): warning C4477: "printf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "2" имеет тип "size_t"
+  C:\Users\user\introduction_C_Cpp\5_static_array\5_static_array.cpp(8,12):
+  рекомендуется использовать "%zd" в строке форматирования
+  
+C:\Users\user\introduction_C_Cpp\5_static_array\5_static_array.cpp(21,12): warning C4477: "printf": в строке форматирования "%.8X" требуется аргумент типа "unsigned int", но вариативный аргумент "1" имеет тип "double *"
+C:\Users\user\introduction_C_Cpp\5_static_array\5_static_array.cpp(21,12): warning C4313: printf: конфликт "%X" в строке формата с аргументом 1 типа "double *"
+C:\Users\user\introduction_C_Cpp\5_static_array\5_static_array.cpp(22,12): warning C4477: "printf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "size_t"
+  C:\Users\user\introduction_C_Cpp\5_static_array\5_static_array.cpp(22,12):
+  рекомендуется использовать "%zd" в строке форматирования
+  
+C:\Users\user\introduction_C_Cpp\5_static_array\5_static_array.cpp(22,12): warning C4477: "printf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "2" имеет тип "size_t"
+  C:\Users\user\introduction_C_Cpp\5_static_array\5_static_array.cpp(22,12):
+  рекомендуется использовать "%zd" в строке форматирования
+  
+C:\Users\user\introduction_C_Cpp\5_static_array\5_static_array.cpp(44,12): warning C4477: "printf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "size_t"
+  C:\Users\user\introduction_C_Cpp\5_static_array\5_static_array.cpp(44,12):
+  рекомендуется использовать "%zd" в строке форматирования
+  
+C:\Users\user\introduction_C_Cpp\5_static_array\5_static_array.cpp(44,12): warning C4477: "printf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "2" имеет тип "size_t"
+  C:\Users\user\introduction_C_Cpp\5_static_array\5_static_array.cpp(44,12):
+  рекомендуется использовать "%zd" в строке форматирования
+  
+C:\Users\user\introduction_C_Cpp\5_static_array\5_static_array.cpp(45,66): warning C4477: "printf": в строке форматирования "%.8X" требуется аргумент типа "unsigned int", но вариативный аргумент "2" имеет тип "const int *"
+C:\Users\user\introduction_C_Cpp\5_static_array\5_static_array.cpp(45,66): warning C4313: printf: конфликт "%X" в строке формата с аргументом 2 типа "const int *"
+C:\Users\user\introduction_C_Cpp\5_static_array\5_static_array.cpp(61,12): warning C4477: "printf": в строке форматирования "%.8X" требуется аргумент типа "unsigned int", но вариативный аргумент "1" имеет тип "double *"
+C:\Users\user\introduction_C_Cpp\5_static_array\5_static_array.cpp(61,12): warning C4313: printf: конфликт "%X" в строке формата с аргументом 1 типа "double *"
+C:\Users\user\introduction_C_Cpp\5_static_array\5_static_array.cpp(62,12): warning C4477: "printf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "size_t"
+  C:\Users\user\introduction_C_Cpp\5_static_array\5_static_array.cpp(62,12):
+  рекомендуется использовать "%zd" в строке форматирования
+  
+C:\Users\user\introduction_C_Cpp\5_static_array\5_static_array.cpp(62,12): warning C4477: "printf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "2" имеет тип "size_t"
+  C:\Users\user\introduction_C_Cpp\5_static_array\5_static_array.cpp(62,12):
+  рекомендуется использовать "%zd" в строке форматирования
+  
+  5_static_array.vcxproj -> C:\Users\user\introduction_C_Cpp\5_static_array\x64\Debug\5_static_array.exe

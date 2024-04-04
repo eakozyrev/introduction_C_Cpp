@@ -1,0 +1,15 @@
+﻿  9_char[].cpp
+C:\Users\user\introduction_C_Cpp\9_char[]\9_char[].cpp(54,9): warning C4477: "printf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "size_t"
+  C:\Users\user\introduction_C_Cpp\9_char[]\9_char[].cpp(54,9):
+  рекомендуется использовать "%zd" в строке форматирования
+  
+C:\Users\user\introduction_C_Cpp\9_char[]\9_char[].cpp(58,9): warning C4477: "printf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "size_t"
+  C:\Users\user\introduction_C_Cpp\9_char[]\9_char[].cpp(58,9):
+  рекомендуется использовать "%zd" в строке форматирования
+  
+C:\Users\user\introduction_C_Cpp\9_char[]\9_char[].cpp(62,9): warning C4477: "printf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "size_t"
+  C:\Users\user\introduction_C_Cpp\9_char[]\9_char[].cpp(62,9):
+  рекомендуется использовать "%zd" в строке форматирования
+  
+C:\Users\user\introduction_C_Cpp\9_char[]\9_char[].cpp(67,10): warning C4309: =: усечение константного значения
+  9_char[].vcxproj -> C:\Users\user\introduction_C_Cpp\9_char[]\x64\Debug\9_char[].exe
