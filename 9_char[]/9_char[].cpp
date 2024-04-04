@@ -22,15 +22,15 @@ int main()
 	scanf("%c", &c);
 	if (c >= 'A' && c <= 'Z')
 	{
-		printf("%c is a capital letter\n", c);
+		printf("%c is a Capital letter\n", c);
 	}
 	else if (c >= 'a' && c <= 'z')
 	{ 
-		printf("%c is a lower-case letter\n", c);
+		printf("%c is a Lower-case letter\n", c);
 	}
 	else if (c >= '0' && c <= '9')
 	{
-		printf("%c is a digit\n", c);
+		printf("%c is a Digit\n", c);
 	}
 	else
 	{ 
@@ -64,13 +64,13 @@ int main()
 	{
 		printf("s1 and s2 are equal \n");
 	}
-	s1[5] = 189;
+	s1[5] = 100;
 	printf("s1 = %s  s2 = %s\n", s1, s2);
 	printf("strcmp(s1,s2) = %d \n", strcmp(s1, s2));
 
 }
-	char s1[] = "abcde";
-	char s2[] = "abcde";
+	char s1[] = "wert";
+	char s2[] = "wert";
 	if (s1 == s2)
 	{ 
 		printf("s1 and s2 are Equal\n");
