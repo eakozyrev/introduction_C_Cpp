@@ -1,0 +1,2 @@
+﻿  12_conlib.cpp
+C:\Users\user\introduction_C_Cpp\12_conlib\12_conlib.cpp(1,10): error C1083: Не удается открыть файл включение: GLFW/glfw3.h: No such file or directory,
